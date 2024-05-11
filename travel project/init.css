@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --primary-color: #093c67;
+    --secondary-color:#f8f9fa;
+    --background-color: white;
+    --text-color:#831a1a;
+    --hover-color:rgb(255, 255, 255);
+    --grid-gutter-width: 1rem;
+    --font-size-base:16px;
+    --brand-font:"open sans", sans-serif;
+    --border-radius:.25rem;
+    --shadow-color:rgba(0,0,0,0.15);
+    --font-family:"Poetsen One", sans-serif ;
+    --font-weight: 400;
+    --font-style: normal;
+}
+.navbar-brand{
+    font-family: var(--font-family);
+}
+
+.navbar{
+    background-color: var(--background-color);
+}
+
+.navbar .nav-link{
+    color: orange;
+    font-weight: 700;
+}
+
+.btn1{
+    height: 52px;
+    width: 100px;
+    border-style: none;
+    background-color: transparent;
+    border-radius: 5px;
+    color: orange;
+}
+
+.btn1:hover{
+    background-color:orange;
+    color: white;
+    transition: ease-in-out 1s;
+}
+
+.btn2{
+    height: 52px;
+    width: 100px;
+    border-style: none;
+    background-color: firebrick;
+    border-radius: 10px;
+    color: white;
+}
+
+.Home{
+    background-image: url(./pro/z-TrhLCn1abMU-unsplash.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(188, 100, 23, 0.473);
+    background-blend-mode: multiply;
+}
+
+.content{
+    padding-top: 280px;
+}
+
+.content h2{
+    color: var(--background-color);
+    font-weight: 900;
+    font-size: 60px;
+    text-shadow: 1px 1px 2px #000000;
+    font-style: italic;
+    font-family: var(--font-family);
+}
+
+
